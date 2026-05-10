@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="25" filename="Texturas/Adesivo1.dds" relativePath="true"/>
+    <File fileId="13" filename="Texturas/Adesivo2.dds" relativePath="true"/>
+    <File fileId="17" filename="Texturas/AdesivoCabine.dds" relativePath="true"/>
+    <File fileId="10" filename="Texturas/AdesivoValmet.dds" relativePath="true"/>
+    <File fileId="34" filename="Texturas/Braco.dds" relativePath="true"/>
+    <File fileId="36" filename="Texturas/Braco2.dds" relativePath="true"/>
+    <File fileId="35" filename="Texturas/Braco3.dds" relativePath="true"/>
+    <File fileId="14" filename="Texturas/Cabine.dds" relativePath="true"/>
+    <File fileId="8" filename="Texturas/Capo.dds" relativePath="true"/>
+    <File fileId="7" filename="Texturas/Capota.dds" relativePath="true"/>
+    <File fileId="24" filename="Texturas/Detalhe.dds" relativePath="true"/>
+    <File fileId="22" filename="Texturas/Engate.dds" relativePath="true"/>
+    <File fileId="15" filename="Texturas/Interiror.dds" relativePath="true"/>
+    <File fileId="2" filename="Texturas/Motor.dds" relativePath="true"/>
+    <File fileId="9" filename="Texturas/Painel.dds" relativePath="true"/>
+    <File fileId="26" filename="Texturas/PneuFino.dds" relativePath="true"/>
+    <File fileId="27" filename="Texturas/RodaFina.dds" relativePath="true"/>
+    <File fileId="28" filename="Texturas/RodaTraseira1.dds" relativePath="true"/>
+    <File fileId="29" filename="Texturas/RodaTraseira2.dds" relativePath="true"/>
+    <File fileId="23" filename="Texturas/Tanque.dds" relativePath="true"/>
+    <File fileId="3" filename="Texturas/Universal_Specular_2048.dds" relativePath="true"/>
+    <File fileId="41" filename="Texturas/arof.dds" relativePath="true"/>
+    <File fileId="42" filename="Texturas/barra.dds" relativePath="true"/>
+    <File fileId="18" filename="Texturas/car_corona_red_diffuse.dds" relativePath="true"/>
+    <File fileId="11" filename="Texturas/car_corona_white_diffuse.dds" relativePath="true"/>
+    <File fileId="6" filename="Texturas/dirt_normal.dds" relativePath="true"/>
+    <File fileId="38" filename="Texturas/eixo.dds" relativePath="true"/>
+    <File fileId="12" filename="Texturas/emissiveLightsShader.xml" relativePath="true"/>
+    <File fileId="19" filename="Texturas/ls17/Textur/coronaOrange_diffuse.png" relativePath="true"/>
+    <File fileId="20" filename="Texturas/ls17/Textur/emissiveLightsShader.xml" relativePath="true"/>
+    <File fileId="40" filename="Texturas/pneu.dds" relativePath="true"/>
+    <File fileId="31" filename="Texturas/polia.dds" relativePath="true"/>
+    <File fileId="39" filename="Texturas/ponta d.dds" relativePath="true"/>
+    <File fileId="43" filename="Texturas/ponta e.dds" relativePath="true"/>
+    <File fileId="32" filename="Texturas/roda motor.dds" relativePath="true"/>
+    <File fileId="4" filename="Texturas/rough_cube.dds" relativePath="true"/>
+    <File fileId="5" filename="Texturas/vehicleShaderDirt.xml" relativePath="true"/>
+    <File fileId="33" filename="Texturas/ventoinha.dds" relativePath="true"/>
+    <File fileId="30" filename="Texturas/volante.dds" relativePath="true"/>
+    <File fileId="16" filename="Texturas/window_diffuse.dds" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="01 - Default" materialId="28" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" alphaBlending="true" customShaderId="5">
+      <Texture fileId="16"/>
+      <Glossmap fileId="3"/>
+      <Reflectionmap fileId="4" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="7" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="7"/>
+      <Glossmap fileId="3"/>
+      <Reflectionmap fileId="4" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="8" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="22"/>
+      <Glossmap fileId="3"/>
+      <Reflectionmap fileId="4" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="9" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="8"/>
+      <Glossmap fileId="3"/>
+      <Reflectionmap fileId="4" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="10" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Reflectionmap fileId="4" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="11" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="41"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="12" diffuseColor="1 1 1 1" ambientColor="1 1 1">
+    </Material>
+    <Material name="lambert1" materialId="13" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1">
+    </Material>
+    <Material name="01 - Default" materialId="14" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="34"/>
+      <Glossmap fileId="3"/>
+      <Reflectionmap fileId="4" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="07 - Default" materialId="15" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="26"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+      <CustomParameter name="morphPosition" value="-0.56 -1.3 0.5 0.08"/>
+    </Material>
+    <Material name="08 - Default" materialId="16" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="27"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="17" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="23"/>
+      <Glossmap fileId="3"/>
+      <Reflectionmap fileId="4" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="18" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="35"/>
+      <Glossmap fileId="3"/>
+      <Reflectionmap fileId="4" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="19" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="36"/>
+      <Glossmap fileId="3"/>
+      <Reflectionmap fileId="4" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="20" ambientColor="0.588235 0.588235 0.588235">
+      <Texture fileId="15"/>
+    </Material>
+    <Material name="01 - Default" materialId="21" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="40"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+      <CustomParameter name="morphPosition" value="-1.91 -4 0 0"/>
+    </Material>
+    <Material name="01 - Default" materialId="22" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="29"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+      <CustomParameter name="morphPosition" value="-0.45 -1.24 0.5 0.1"/>
+    </Material>
+    <Material name="01 - Default" materialId="23" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="43"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="24" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="28"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+      <CustomParameter name="morphPosition" value="-0.45 -1.24 0.5 0.1"/>
+    </Material>
+    <Material name="01 - Default" materialId="25" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="39"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="26" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="38"/>
+      <Glossmap fileId="3"/>
+      <Reflectionmap fileId="4" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="27" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="42"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="29" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="14"/>
+      <Glossmap fileId="3"/>
+      <Reflectionmap fileId="4" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="30" ambientColor="0.588235 0.588235 0.588235">
+      <Texture fileId="24"/>
+    </Material>
+    <Material name="01 - Default" materialId="31" ambientColor="0.588235 0.588235 0.588235" customShaderId="5" customShaderVariation="Decal">
+      <Texture fileId="17"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="32" ambientColor="0.588235 0.588235 0.588235">
+      <Texture fileId="25"/>
+    </Material>
+    <Material name="01 - Default" materialId="33" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5" customShaderVariation="Decal">
+      <Texture fileId="10"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="34" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="9"/>
+      <Glossmap fileId="3"/>
+      <Reflectionmap fileId="4" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="car_corona_red_mat" materialId="36" ambientColor="1 1 1" alphaBlending="true" customShaderId="12" customShaderVariation="BILLBOARD">
+      <Emissivemap fileId="18"/>
+      <CustomParameter name="blinkOffset" value="0 0 0 0"/>
+    </Material>
+    <Material name="car_corona_white_mat" materialId="37" ambientColor="1 1 1" alphaBlending="true" customShaderId="12" customShaderVariation="BILLBOARD">
+      <Emissivemap fileId="11"/>
+      <CustomParameter name="blinkOffset" value="0 0 0 0"/>
+    </Material>
+    <Material name="01 - Default" materialId="38" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="31"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="39" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="33"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="01 - Default" materialId="40" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1" customShaderId="5">
+      <Texture fileId="32"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="DirtNmap" fileId="6"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="corona_orange_mat" materialId="42" ambientColor="1 1 1" alphaBlending="true" customShaderId="20" customShaderVariation="BILLBOARD_TURNLIGHT">
+      <Emissivemap fileId="19"/>
+      <CustomParameter name="blinkOffset" value="0 0 0 0"/>
+    </Material>
+    <Material name="mirror_mat" materialId="43" diffuseColor="0 0 0 1" ambientColor="1 1 1" cosPower="50" specularColor="0.1 0.1 0.1">
+      <Reflectionmap lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="planar" scaling="1" refractiveIndex="10" bumpScale="0.1" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
+    </Material>
+    <Material name="01 - Default" materialId="44" ambientColor="0.588235 0.588235 0.588235" cosPower="20" specularColor="1 1 1">
+      <Texture fileId="30"/>
+    </Material>
+    <Material name="01 - Default" materialId="208" ambientColor="0.588235 0.588235 0.588235">
+      <Texture fileId="17"/>
+    </Material>
+    <Material name="01 - Default" materialId="203" ambientColor="0.588235 0.588235 0.588235">
+      <Texture fileId="13"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Valmet.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="Valmet" dynamic="true" compound="true" collisionMask="2105410" density="0.72" nodeId="84" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true" distanceBlending="false">
+      <TransformGroup name="Valmet" nodeId="85">
+        <Shape shapeId="2" name="Motor" nodeId="86" materialIds="10" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="Subs" translation="-0.358092 1.43965 -0.666363" rotation="-46.9999 10.8434 -5.82726" nodeId="87"/>
+        <TransformGroup name="Plataforma" visibility="false" nodeId="88">
+          <Shape shapeId="3" name="Capota" translation="0 0.693 2.1459" scale="1.066 1.066 1.066" nodeId="89" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="Capo" translation="0 0.693 2.1" rotation="0 180 0" scale="1.066 1.066 1.066" nodeId="90" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="Painel" translation="0 0.693 2.1" rotation="0 180 0" scale="1.066 1.066 1.066" nodeId="91" materialIds="34" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="Adesivo" translation="0 0.693 2.09" rotation="0 180 0" scale="1.067 1.065 1.065" nodeId="92" materialIds="33" castsShadows="true" receiveShadows="true"/>
+          <TransformGroup name="Luzes" nodeId="93">
+            <TransformGroup name="Baixa" nodeId="94">
+              <Shape shapeId="7" name="Farol" translation="-0.16216 1.35179 1.65574" scale="2.86876 2.86876 1" nodeId="95" materialIds="37"/>
+              <Shape shapeId="7" name="Farol" translation="0.150589 1.35179 1.65574" scale="2.86876 2.86876 1" nodeId="96" materialIds="37"/>
+            </TransformGroup>
+            <TransformGroup name="Alta" nodeId="97">
+              <Shape shapeId="7" name="Farol" translation="-0.16216 1.35179 1.65574" scale="2.86876 2.86876 1" nodeId="98" materialIds="37"/>
+              <Shape shapeId="7" name="Farol" translation="0.150589 1.35179 1.65574" scale="2.86876 2.86876 1" nodeId="99" materialIds="37"/>
+            </TransformGroup>
+            <Light name="Baixa" translation="6.55135e-08 1.35776 1.69358" rotation="170.563 0 -180" nodeId="100" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="80" coneAngle="80" dropOff="4"/>
+            <Light name="Alta" translation="2.77826e-08 1.38468 1.66574" rotation="176.351 -0 -180" nodeId="101" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="80" coneAngle="100" dropOff="2"/>
+          </TransformGroup>
+          <Shape shapeId="8" name="Adesivo" translation="5.17949e-08 0.693 2.096" rotation="0 180 0" scale="1.066 1.066 1.05" nodeId="206" materialIds="203" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="Gabine" visibility="false" nodeId="102">
+          <Shape shapeId="9" name="Gabine" translation="0 0.693 2.1" scale="1.066 1.066 1.066" nodeId="103" materialIds="29" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="10" name="Interior" translation="0 0.69 2.096" scale="1.066 1.066 1.066" nodeId="104" materialIds="20" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="11" name="Vidro" translation="0 0.693 2.1" scale="1.066 1.066 1.066" nodeId="105" materialIds="28" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="12" name="Adesivo" translation="0 0.69 2.09" rotation="0 180 0" scale="1.065 1.065 1.065" nodeId="106" materialIds="31" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="Adesivo" translation="0 0.693 2.09" rotation="0 180 0" scale="1.067 1.065 1.065" nodeId="107" materialIds="33" castsShadows="true" receiveShadows="true"/>
+          <TransformGroup name="Luzes" nodeId="108">
+            <TransformGroup name="Baixa" nodeId="109">
+              <Shape shapeId="7" name="Farol" translation="-0.164347 1.36124 1.64938" scale="2.86876 2.86876 1" nodeId="110" materialIds="37"/>
+              <Shape shapeId="7" name="Farol" translation="0.164 1.36124 1.64938" scale="2.86876 2.86876 1" nodeId="111" materialIds="37"/>
+              <Shape shapeId="13" name="Vermelha" translation="-0.663038 1.58142 -1.93282" rotation="-180 -0 -180" scale="1 1 11" nodeId="112" materialIds="36"/>
+              <Shape shapeId="13" name="Vermelha" translation="0.663 1.58142 -1.93282" rotation="-180 -0 -180" scale="1 1 11" nodeId="113" materialIds="36"/>
+            </TransformGroup>
+            <TransformGroup name="Alta" nodeId="114">
+              <Shape shapeId="7" name="Farol" translation="-0.561 2.62355 -0.146599" scale="1.77597 1.77597 1.77597" nodeId="115" materialIds="37"/>
+              <Shape shapeId="7" name="Farol" translation="0.561 2.62355 -0.146599" scale="1.77597 1.77597 1.77597" nodeId="116" materialIds="37"/>
+              <Shape shapeId="7" name="Farol" translation="0.426463 2.62355 -0.0648859" scale="1.77597 1.77597 1.77597" nodeId="117" materialIds="37"/>
+              <Shape shapeId="7" name="Farol" translation="-0.426 2.62355 -0.0648859" scale="1.77597 1.77597 1.77597" nodeId="118" materialIds="37"/>
+            </TransformGroup>
+            <TransformGroup name="Trabalho" nodeId="119">
+              <Shape shapeId="7" name="Farol" translation="-0.561 2.62355 -1.55843" rotation="0 180 0" scale="1.77597 1.77597 1.77597" nodeId="120" materialIds="37"/>
+              <Shape shapeId="7" name="Farol" translation="-0.437226 2.62355 -1.55843" rotation="0 180 0" scale="1.77597 1.77597 1.77597" nodeId="121" materialIds="37"/>
+              <Shape shapeId="7" name="Farol" translation="0.437 2.62355 -1.55843" rotation="0 180 0" scale="1.77597 1.77597 1.77597" nodeId="122" materialIds="37"/>
+              <Shape shapeId="7" name="Farol" translation="0.561 2.62355 -1.55843" rotation="0 180 0" scale="1.77597 1.77597 1.77597" nodeId="123" materialIds="37"/>
+            </TransformGroup>
+            <TransformGroup name="Freio" nodeId="124">
+              <Shape shapeId="13" name="Vermelha" translation="-0.663038 1.58142 -1.93282" rotation="-180 -0 -180" scale="1 1 11" nodeId="125" materialIds="36"/>
+              <Shape shapeId="13" name="Vermelha" translation="0.663 1.58142 -1.93282" rotation="-180 -0 -180" scale="1 1 11" nodeId="126" materialIds="36"/>
+            </TransformGroup>
+            <TransformGroup name="Piscas" translation="-1.49572e-07 0 -1.71091" rotation="0 180 0" scale="1.08032 1 1" clipDistance="75" nodeId="127">
+              <TransformGroup name="left" nodeId="128">
+                <Shape shapeId="14" name="corona_orange7" translation="-0.730025 1.59143 0.221913" scale="0.8 0.8 1" clipDistance="75" nodeId="129" materialIds="42" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+              <TransformGroup name="right" nodeId="130">
+                <Shape shapeId="14" name="corona_orange7" translation="0.73036 1.58798 0.221913" scale="0.8 0.8 1" clipDistance="75" nodeId="131" materialIds="42" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+            </TransformGroup>
+            <Light name="Baixa" translation="1.25072e-07 1.43668 1.66092" rotation="170.653 -0 180" nodeId="132" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="80" coneAngle="80" dropOff="4"/>
+            <Light name="Alta" translation="1.42114e-07 2.69247 -0.058729" rotation="168.397 -0 180" nodeId="133" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="80" coneAngle="120" dropOff="2"/>
+            <Light name="Trabalho" translation="2.70788e-07 2.66436 -1.57915" rotation="168.397 180 180" nodeId="134" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="80" coneAngle="120" dropOff="2"/>
+          </TransformGroup>
+          <Shape shapeId="15" name="mirrorRightDecal" translation="-0.879143 2.17 -0.0872917" rotation="-90.6867 -3.4798 2.9883" clipDistance="20" nodeId="135" materialIds="43" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="15" name="mirrorRightDecal" translation="0.879 2.16992 -0.0872917" rotation="-90.6867 -3.4798 2.9883" clipDistance="20" nodeId="136" materialIds="43" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="8" name="Adesivo" translation="5.23922e-08 0.693 2.103" rotation="0 180 0" scale="1.066 1.066 1.07" nodeId="207" materialIds="203" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="16" name="Adesivo" translation="0 0.693 2.11" rotation="0 180 0" scale="1.066 1.066 1.07" nodeId="211" materialIds="208" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <Shape shapeId="17" name="Engate" translation="0 0.368041 -1.57911" nodeId="137" materialIds="8" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="MaoDireita" translation="-0.358092 1.43965 -0.666363" rotation="-46.9999 10.8434 -5.82726" nodeId="138"/>
+        <TransformGroup name="Pulverizacao" visibility="false" nodeId="139">
+          <Shape shapeId="18" name="Tanque" translation="0 0.693 2.096" scale="1.066 1.066 1.066" nodeId="140" materialIds="17" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="19" name="Detalhe" translation="0 0.693 2.096" rotation="0 180 0" scale="1.066 1.066 1.066" nodeId="141" materialIds="30" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="20" name="Adesivo" translation="0 0.693 2.09" rotation="0 180 0" scale="1.065 1.065 1.064" nodeId="142" materialIds="32" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="Rodas" translation="0 0.624 1.967" nodeId="143">
+        <TransformGroup name="Finas" visibility="false" nodeId="144">
+          <Shape shapeId="21" name="fino" translation="0.797416 0.032 -3.434" scale="0.931911 0.931911 0.931911" nodeId="145" materialIds="15" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="22" name="006" translation="-0.262153 0 0" nodeId="146" materialIds="16" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+          <Shape shapeId="21" name="fino" translation="-0.797 0.032 -3.434" scale="0.931911 0.931911 0.931911" nodeId="147" materialIds="15" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="22" name="006" translation="0.30617 0 -4.9671e-08" rotation="0 180 0" nodeId="148" materialIds="16" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="Normais" visibility="false" nodeId="149">
+          <Shape shapeId="23" name="Roda" translation="0.827 0.032 -3.434" nodeId="150" materialIds="24" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="24" name="Roda" translation="-0.827 0.032 -3.434" scale="1.109 1.109 1.109" nodeId="151" materialIds="22" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="Moveis" nodeId="152">
+        <TransformGroup name="Volante" translation="0 1.38347 -0.205411" rotation="-44.8207 -0 0" nodeId="153">
+          <Shape shapeId="25" name="Volante" nodeId="154" materialIds="44" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="Esquerda" translation="0.197267 0.292493 -0.0427019" rotation="-27.3338 0.693108 -33.4308" nodeId="155"/>
+          </Shape>
+        </TransformGroup>
+        <Shape shapeId="26" name="Polia" translation="-0.203813 1.0097 1.15845" nodeId="156" materialIds="38" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="27" name="Roda motor" translation="0 0.733945 1.00734" nodeId="157" materialIds="40" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="28" name="Ventoinha" translation="0.018 1.07692 1.16696" nodeId="158" materialIds="39" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="cameras" nodeId="159">
+        <TransformGroup name="outdoorCameraTarget" translation="-8.67747e-32 1.41593 4.26326e-16" rotation="-24 180 0" nodeId="160">
+          <Camera name="outdoorCamera1" translation="0.0377174 -1.31529 6.38115" rotation="11.2586 -2.97867 -1.34688" nodeId="161" fov="54.4322" nearClip="0.3" farClip="5000" orthographicHeight="1"/>
+        </TransformGroup>
+        <Camera name="indoorCamera1" translation="-1.91262e-08 2.2 -1.12562" rotation="-18 180 0" nodeId="162" fov="60" nearClip="0.1" farClip="5000" orthographicHeight="1"/>
+        <TransformGroup name="cameraRaycastNode1" translation="0 1.60884 2.18059" nodeId="163"/>
+        <TransformGroup name="cameraRaycastNode2" translation="0 2.65521 -2.12445" nodeId="164"/>
+      </TransformGroup>
+      <TransformGroup name="exitPoint" translation="1.40691 0 0" nodeId="165"/>
+      <TransformGroup name="Engates" nodeId="166">
+        <TransformGroup name="Engate Trailer" translation="-9.00038e-09 0.332391 -2.22493" rotation="0 90 0" nodeId="167"/>
+        <TransformGroup name="Hidraulico" translation="0 0.395352 -2.01903" nodeId="168">
+          <TransformGroup name="attacherJointBackArmBottom" translation="0 -0.0022847 0.465949" rotation="-3.18782 -0 0" nodeId="169">
+            <Shape shapeId="29" name="Braco" nodeId="170" materialIds="14" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="mainArmRef" translation="4.00408e-10 -0.00265178 -0.418507" rotation="-95.274 -0 -180" nodeId="171"/>
+              <TransformGroup name="referencePointBackBottom" translation="-1.80043e-10 0 -0.961055" nodeId="172"/>
+              <TransformGroup name="mainArmRef" translation="0 0 -0.791696" nodeId="173"/>
+            </Shape>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="Hidraulico" nodeId="174">
+          <Shape shapeId="30" name="Braco3" translation="3.86314e-09 0.917873 -1.7368" rotation="0 180 0" nodeId="175" materialIds="18" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="31" name="Braco2" translation="0 -9.63209e-09 0.220357" rotation="90 -0 0" nodeId="176" materialIds="19" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+          <TransformGroup name="attacherJointBackRot" translation="0 0.461406 -1.59556" rotation="-9.53554 -0 0" nodeId="177">
+            <TransformGroup name="attacherJointBackRot2" translation="0 -0.0264455 -0.782801" nodeId="178">
+              <TransformGroup name="attacherJointBack" translation="-1.70899e-07 0 0.0340118" rotation="0 90 0" nodeId="179"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="3 ponto" translation="-0.0104157 0.896292 -1.87762" rotation="72.9355 -0 0" nodeId="180"/>
+        <TransformGroup name="Engate Trailer" translation="-9.00038e-09 0.332391 -2.22493" rotation="0 90 0" nodeId="181"/>
+        <TransformGroup name="PTO" translation="1.61231e-09 0.553991 -1.84915" nodeId="182"/>
+      </TransformGroup>
+      <TransformGroup name="ai" nodeId="183">
+        <Shape shapeId="32" name="aiCollisionTrigger" translation="0 1.67151 1.80097" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="1056768" nodeId="184" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </TransformGroup>
+      <TransformGroup name="playerRoot" translation="0 1.30955 -0.980682" nodeId="185">
+        <TransformGroup name="player_skin" translation="0 0.0336285 -1.77636e-17" nodeId="186"/>
+        <TransformGroup name="player_rightFoot" translation="-0.267837 -0.30435 0.57424" rotation="-22.2773 -17.8239 0" nodeId="187"/>
+        <TransformGroup name="player_leftFoot" translation="0.218458 -0.36434 0.563235" rotation="0 10 0" nodeId="188"/>
+      </TransformGroup>
+      <TransformGroup name="Escape" translation="0.537299 2.45579 0.636261" rotation="0 -0 -56.274" visibility="false" nodeId="189"/>
+      <TransformGroup name="Escape2" translation="0.537299 2.45579 0.636261" rotation="0 -0 -56.274" visibility="false" nodeId="190"/>
+    </Shape>
+    <Shape shapeId="33" name="Eixo" translation="0 0.579105 1.06645" dynamic="true" compound="true" collisionMask="2105410" density="60" nodeId="191" materialIds="26" castsShadows="true" receiveShadows="true">
+      <Shape shapeId="34" name="Ponta" translation="-0.593 0.096 0" nodeId="192" materialIds="25" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="35" name="Pneu" translation="-0.221 -0.369 0" nodeId="193" materialIds="21" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="36" name="Aro" nodeId="194" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="37" name="Barra" translation="0.014 -0.015 -0.22" rotation="0 90 0" nodeId="195" materialIds="27" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="38" name="Ponta" translation="0.593 0.096 0" nodeId="196" materialIds="23" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="39" name="Pneu" translation="0.221 -0.369 0" nodeId="197" materialIds="21" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="40" name="Aro" rotation="0 180 0" nodeId="198" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <TransformGroup name="transform" translation="-0.014 -0.015 -0.22" nodeId="199"/>
+      </Shape>
+      <TransformGroup name="transform" nodeId="200"/>
+    </Shape>
+    <Light name="light" translation="1.50831 1.95971 -7.58268" rotation="175.477 11.9777 -179.982" nodeId="202" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" numShadowMapSplits="3" shadowMapSplitDistancesParameter="0.4" decayRate="4" range="500"/>
+  </Scene>
+
+</i3D>
